@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    /* Creates 16 equal columns */
+    grid-template-columns: repeat(16, 1fr); 
+    /* Creates 16 equal rows */
+    grid-template-rows: repeat(16, 1fr);    
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    }
