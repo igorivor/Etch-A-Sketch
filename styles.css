@@ -1,10 +1,15 @@
 .container{
     display: flex;
-    /* Creates 16 equal columns */
-    grid-template-columns: repeat(16, 1fr); 
-    /* Creates 16 equal rows */
-    grid-template-rows: repeat(16, 1fr);    
-    width: 500px;
-    height: 500px;
-    border: 2px solid black;
-    }
+    flex-wrap: wrap;    
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
+.grid-item {
+  /* Izračun: 100% širine podijeljeno sa 16 stupaca */
+  width: calc(100% / 16);
+  height: calc(100% / 16);
+  
+  box-sizing: border-box; /* Važno: border ne povećava širinu diva */
+  border: 1px solid #ddd;
+}
