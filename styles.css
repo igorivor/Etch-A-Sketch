@@ -7,19 +7,46 @@ body{
   margin: 0px;
   gap: 10px;
 }
+
 .title{
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0px;
-  padding: 5px;
+  padding: 0px;
 }
 h1{
   font-size: 50px;
   font-family: 'Times New Roman', Times, serif;
   color: black;
   font-weight: bold;
+  margin: 0px;
+  padding: 0px;
 }
+
+.question{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  gap: 10px;
+}
+p{
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+#btn_S{
+  background-color: skyblue;
+  font-size: 14px;
+  color: white;
+  border-radius: 8px;
+  border: 0px;
+  margin: 0px;
+  padding: 5px;
+}
+
 .container{
     display: flex;
     flex-wrap: wrap;    
@@ -34,4 +61,51 @@ h1{
   
   box-sizing: border-box; /* Važno: border ne povećava širinu diva */
   border: 1px solid #ddd;
+}
+
+.selection{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 40px;
+  margin: 0px;
+  padding: 10px;
+}
+
+#btn_blue, #btn_red, #btn_yellow, #btn_green, #btn_orange,
+#btn_purple, #btn_pink, #btn_brown, #btn_gray, #btn_black{
+  border-radius: 10px;
+  border: 0px;
+  margin: 0px;
+  padding: 10px;
+}
+#btn_blue{
+  background-color: blue;
+}
+#btn_red{
+  background-color: red;
+}
+#btn_yellow{
+  background-color: yellow;
+}
+#btn_green{
+  background-color: green;
+}
+#btn_orange{
+  background-color: orange;
+}
+#btn_purple{
+  background-color: purple;
+}
+#btn_pink{
+  background-color: pink;
+}
+#btn_brown{
+  background-color: brown;
+}
+#btn_gray{
+  background-color: gray;
+}
+#btn_black{
+  background-color: black;
 }
