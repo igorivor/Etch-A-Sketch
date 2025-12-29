@@ -55,10 +55,6 @@ p{
     border: 1px solid black;
 }
 .grid-item {
-  /* Izračun: 100% širine podijeljeno sa 16 stupaca */
-  width: calc(100% / 16);
-  height: calc(100% / 16);
-  
   box-sizing: border-box; /* Važno: border ne povećava širinu diva */
   border: 1px solid #ddd;
 }
